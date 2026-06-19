@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_main);
 
-        int splashDuraton = 3000;
+        int splashDuraton = 1550;
 
         new Handler(Looper.getMainLooper()).postDelayed(new Runnable() {
             @Override
