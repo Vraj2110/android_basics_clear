@@ -12,7 +12,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Campus_Connect">
         <activity
-            android:name=".login_screen"
+            android:name=".login_screen_1"
+            android:exported="false" />
+        <activity
+            android:name=".welcome_screen"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
