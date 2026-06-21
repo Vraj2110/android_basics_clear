@@ -19,7 +19,17 @@ public class login_screen_1 extends AppCompatActivity {
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_login_screen1);
 
+        TextView forgotpass = findViewById(R.id.forgetpasstxt);
+
         TextView signuptxt = findViewById(R.id.txtSignupLink);
+
+        forgotpass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent1 = new Intent(login_screen_1.this, forgotpassword_screen.class);
+                startActivity(intent1);
+            }
+        });
 
         signuptxt.setOnClickListener(new View.OnClickListener() {
             @Override
